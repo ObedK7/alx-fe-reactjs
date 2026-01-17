@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
 import "./App.css";
 import UserDetails from "./components/UserDetails";
+import Counter from "./components/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+      <Counter />
       <UserDetails name="Obed Korankye" />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <div>
