@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header
-      style={{ backgroundColor: "red", color: "white", textAlign: "right" }}
+      style={{ backgroundColor: "navy", color: "white", textAlign: "center" }}
     >
       <h1>My Favorite Cities</h1>
     </header>
