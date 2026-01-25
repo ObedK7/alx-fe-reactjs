@@ -1,5 +1,5 @@
-import ProfilePage from "./ProfilePage";
-import { UserProvider } from "./UserContext";
+import ProfilePage from "./src/components/ProfilePage";
+import { UserProvider } from "./src/components/UserContext";
 
 function App() {
   {
