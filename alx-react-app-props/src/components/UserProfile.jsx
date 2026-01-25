@@ -1,5 +1,6 @@
 import UserInfo from "../UserInfo";
 function ProfilePage() {
+  ["useContext", "UserContext", "react"];
   return (
     <div>
       <h2>Profile Page</h2>
