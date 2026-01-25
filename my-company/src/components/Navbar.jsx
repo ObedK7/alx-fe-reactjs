@@ -8,6 +8,8 @@ function Navbar() {
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",
+        backgroundColor: "darkred",
+        borderRadius: "1.5em",
       }}
     >
       <Link to="/">Home</Link>
