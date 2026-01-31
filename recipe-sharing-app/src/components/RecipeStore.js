@@ -7,4 +7,9 @@ const useRecipeStore = create((set) => ({
   setRecipes: (recipes) => set({ recipes }),
 }));
 
+export const recipeStoreShape = {
+  recipes: [],
+  addRecipe: () => {},
+};
+
 export default useRecipeStore;
