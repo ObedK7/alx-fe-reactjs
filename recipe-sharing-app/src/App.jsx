@@ -1,6 +1,6 @@
 import { useState } from "react";
-import RecipeList from "./RecipeList";
-import AddRecipeForm from "./AddrecipeForm";
+import RecipeList from "./component/RecipeList";
+import AddRecipeForm from "./component/AddrecipeForm";
 import RecipeStore from "./RecipeStore";
 import "./App.css";
 
