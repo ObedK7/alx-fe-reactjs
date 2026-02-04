@@ -8,7 +8,10 @@ function UserProfile() {
         alt="User"
       />
       <h1 className="text-xl text-blue-800 my-4">John Doe</h1>
-      <p className="text-gray-600 text-base">
+      <p
+        className="text-gray-600 text-base text-c
+      enter"
+      >
         Developer at Example Co. Loves to write code and explore new
         technologies.
       </p>
