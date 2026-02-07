@@ -6,6 +6,8 @@ function App() {
   return (
     <Router>
       <div>
+        <h1 style={{ textAlign: "center" }}>GitHub User Search</h1>
+        <Search />
         <nav>
           <Link to="/">Home</Link> | <Link to="/about">About</Link>
         </nav>

@@ -1,68 +1,104 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  text-align: center;
+  color: #24292e;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #d1d5da;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: #0366d6;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  font-size: 16px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:hover {
+  background-color: #0356b6;
+}
+
+.user-card {
+  border: 1px solid #d1d5da;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.user-card h2 {
+  margin: 10px 0 5px 0;
+}
+
+.user-card p {
+  margin: 5px 0;
+  color: #586069;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats div strong {
+  display: block;
+  font-size: 18px;
+}
+
+a.profile-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a.profile-link:hover {
+  text-decoration: underline;
+}
+
+.loading,
+.error {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
 }
