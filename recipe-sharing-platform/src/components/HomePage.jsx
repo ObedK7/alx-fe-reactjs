@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import recipesData from "../data/recipes"; // Correct relative path
+import recipesData from "../data/recipes";
+import dataJson from "../data.json";
 
 const HomePage = () => {
   const [recipes, setRecipes] = useState([]);
