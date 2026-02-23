@@ -44,8 +44,8 @@ const RecipeDetail = () => {
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Cooking Instructions</h2>
         <ol className="list-decimal list-inside text-gray-700">
-          {recipe.steps ? (
-            recipe.steps.map((step, idx) => <li key={idx}>{step}</li>)
+          {recipe.instructions ? (
+            recipe.instructions.map((step, idx) => <li key={idx}>{step}</li>)
           ) : (
             <>
               <li>Step 1: Prepare the ingredients.</li>
