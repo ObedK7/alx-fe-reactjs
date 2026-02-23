@@ -14,7 +14,7 @@ const RecipeDetail = () => {
   if (!recipe) return <p className="text-center mt-10">Recipe not found.</p>;
 
   return (
-    <div className="container mx-auto p-4 max-w-3xl">
+    <div className="container mx-auto shadow-md p-4 max-w-3xl">
       <Link to="/" className="text-blue-500 underline mb-4 inline-block">
         &larr; Back to Home
       </Link>
