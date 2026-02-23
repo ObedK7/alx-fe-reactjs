@@ -3,12 +3,80 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "/images/italian_dishes.jpg",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 eggs",
+      "50g parmesan cheese",
+      "Black pepper"
+    ],
+    "steps": [
+      "Boil the spaghetti in salted water.",
+      "Cook pancetta until crisp.",
+      "Mix eggs and parmesan.",
+      "Combine spaghetti with pancetta and egg mixture.",
+      "Season with black pepper and serve."
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "/images/italian_dishes.jpg",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 eggs",
+      "50g parmesan cheese",
+      "Black pepper"
+    ],
+    "steps": [
+      "Boil the spaghetti in salted water.",
+      "Cook pancetta until crisp.",
+      "Mix eggs and parmesan.",
+      "Combine spaghetti with pancetta and egg mixture.",
+      "Season with black pepper and serve."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery.",
+    "image": "/images/Tandoori-Chicken-20.jpg",
+    "ingredients": [
+      "500g chicken",
+      "2 tbsp yogurt",
+      "1 tsp garam masala",
+      "200ml tomato puree",
+      "Cream"
+    ],
+    "steps": [
+      "Marinate chicken with yogurt and spices.",
+      "Grill the chicken until cooked.",
+      "Prepare tomato-based gravy.",
+      "Add chicken to gravy and simmer.",
+      "Finish with cream and serve."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery.",
+    "image": "/images/Tandoori-Chicken-20.jpg",
+    "ingredients": [
+      "500g chicken",
+      "2 tbsp yogurt",
+      "1 tsp garam masala",
+      "200ml tomato puree",
+      "Cream"
+    ],
+    "steps": [
+      "Marinate chicken with yogurt and spices.",
+      "Grill the chicken until cooked.",
+      "Prepare tomato-based gravy.",
+      "Add chicken to gravy and simmer.",
+      "Finish with cream and serve."
+    ]
   }
 ]

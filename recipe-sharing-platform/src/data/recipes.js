@@ -3,7 +3,7 @@ const recipesData = [
     id: 1,
     title: "Italian Dish",
     summary: "A classic Italian pasta dish...",
-    image: "/images/italian_dishes.jpg",
+    image: "/public/images/italian_dishes.jpg",
   },
   {
     id: 2,
